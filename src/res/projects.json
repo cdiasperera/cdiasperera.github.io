@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Teacher of the Year Website",
+    "desc": "A website to host the Teacher of the Year Aware for the CS Programme at the University of Groningen. Consists of both the backend and frontend",
+    "repo": "",
+    "image": ""
+  },
+  {
+    "name": "Solving the Partition Algorithm via a genetic algorithm",
+    "repo": "https://github.com/cdiasperera/GeneticPartitionProblem",
+    "desc": "The <a href='https://en.wikipedia.org/wiki/Partition_problem'>partition problem </a> is known to be an NP hard problem, so to find a solution quickly, I implemented a <a href='https://en.wikipedia.org/wiki/Genetic_algorithm'>genetic algorithm</a> to grow and solve it fast.",
+    "image": ""
+  },
+  {
+    "name": "Converting C++ Commenting styles",
+    "repo": "https://github.com/cdiasperera/CPP-Comments-To-Doxygen",
+    "desc": "For one company I did a project for (not listed in this page, as the project was closed-source), I had to create an object collision detection system in C++. I had written documentation in C++ style, but our team wished to write the documentation in <a href='https://www.doxygen.nl/'>Doxygen</a>. So I create a quick tool in Java to convert my comments to my team's desired style.",
+    "image": ""
+  },
+  {
+  "name": "Yelpcamp",
+  "repo": "https://github.com/cdiasperera/YelpCamp",
+  "desc": "One of my projects that helped me learn web development. This is a simple CRUD website, written with the MERN stack, that lets you examine the various national parks in the US.",
+  "image": ""
+  },
+  {
+    "name": "Build-A-Burger",
+    "repo": "https://github.com/cdiasperera/build-a-burger",
+    "desc": "Another one of my projects that helped me learn. This is a simple application written in React that lets you \"Build-a-Burger\".",
+    "image": ""
+
+  }
+]
