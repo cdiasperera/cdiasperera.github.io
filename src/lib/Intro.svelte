@@ -22,7 +22,7 @@
         padding-top: 0.5em;
     }
     img {
-        height: 50vh;
+        height: 15em;
         float: left;
     }
     div {

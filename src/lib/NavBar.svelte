@@ -15,7 +15,7 @@
         top: 0;
         left: 0;
         right: 0;
-        height: 80px;
+        height: 12vh;
         display: flex;
         align-items: center;
         box-shadow: 0 0 25px 0 black;

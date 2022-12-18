@@ -3,6 +3,7 @@
     import Intro from "$lib/Intro.svelte";
     import Highlights from "$lib/Highlights.svelte";
     import News from "$lib/News.svelte";
+    import Footer from "$lib/Footer.svelte";
 
     let introMessage1 = `
    __ __    ____
@@ -21,7 +22,16 @@
     console.log(introMessage1);
     console.log(introMessage2);
 </script>
+<div class="content">
 <Header/>
 <Intro/>
 <Highlights/>
 <News/>
+</div>
+<Footer/>
+
+<style>
+    .content {
+        flex: 1 0 auto;
+    }
+</style>

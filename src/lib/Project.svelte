@@ -1,11 +1,11 @@
 <script>
     export let project;
-    import logo from "../res/github-mark.png";
+    import github_ico from "../res/github-mark.png";
     import placeholder from "../res/placeholder.webp"
 </script>
 <div class="card">
     <h3 class="title"><a href = {"projects/" + project.name}>{project.name}</a></h3>
-    <a href={project.repo}><img class="github-ico" src={logo} alt="github logo"></a>
+    <a href={project.repo}><img class="github-ico" src={github_ico} alt="github logo"></a>
     {#if project.img}
         <img class="proj-img" src={project.image} alt="Project image"/>
     {:else }
