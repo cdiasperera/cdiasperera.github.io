@@ -1,5 +1,5 @@
 <script>
-    import github_ico from "../res/github-mark-white.png";
+    import github_ico from "../res/icons/github-mark-white.png";
 </script>
 <div class="footer">
     <div class="footer-wrap">
