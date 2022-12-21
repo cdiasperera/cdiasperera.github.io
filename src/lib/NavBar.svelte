@@ -2,7 +2,7 @@
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/about">About Me</a></li>
+            <li><a href="/resume">Resume</a></li>
             <li><a href="/projects">Projects</a></li>
         </ul>
     </nav>
@@ -15,7 +15,7 @@
         top: 0;
         left: 0;
         right: 0;
-        height: 12vh;
+        height: 3em;
         display: flex;
         align-items: center;
         box-shadow: 0 0 25px 0 black;

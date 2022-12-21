@@ -22,6 +22,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"gh-pages": "^4.0.0"
+		"gh-pages": "^4.0.0",
+		"jsonresume-theme-stackoverflow": "^2.0.0"
 	}
 }

@@ -1,8 +1,8 @@
 <script>
     import Header from '$lib/Header.svelte'
-    import Intro from "$lib/Intro.svelte";
+    import Intro from "$lib/LandingComponents/Intro.svelte";
     import Highlights from "$lib/Highlights.svelte";
-    import News from "$lib/News.svelte";
+    import News from "$lib/LandingComponents/News.svelte";
     import Footer from "$lib/Footer.svelte";
 
     let introMessage1 = `

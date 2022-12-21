@@ -1,6 +1,6 @@
 <script>
-    import NewsItem from "$lib/NewsItem.svelte";
-    import newsItems from '../res/news.json';
+    import NewsItem from "$lib/LandingComponents/NewsItem.svelte";
+    import newsItems from '../../res/news.json';
 </script>
 <div>
     <h1>News</h1>

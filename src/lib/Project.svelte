@@ -44,14 +44,14 @@
 
     .proj-img {
         display: inline-block;
-        height: 30vh;
+        height: 10em;
         float: left;
         margin-right: 0.5em;
     }
 
     .github-ico {
-        width: 4vh;
-        height: 4vh;
+        width: 1.5em;
+        height: 1.5em;
         display: inline-block;
     }
 </style>

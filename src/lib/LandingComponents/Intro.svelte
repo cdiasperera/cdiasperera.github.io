@@ -1,5 +1,5 @@
 <script>
-    import selfie from "../res/picture.jpg";
+    import selfie from "../../res/picture.jpg";
 </script>
 
 <h1>Channa Dias Perera</h1>
@@ -12,7 +12,7 @@
     </p>
 
     <p>
-        You can find my resume <a href="/about">here</a>.
+        You can find my resume <a href="/resume">here</a>.
     </p>
 </div>
 

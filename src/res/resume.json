@@ -1,0 +1,395 @@
+{
+  "basics":  {
+    "name": "Channa Dias Perera",
+    "label": "Programmer",
+    "image": "https://avatars.githubusercontent.com/u/48114162?s=400&v=4",
+    "email": "cdperera@hey.com",
+    "phone": "(+31) 6 4266 1569",
+    "location": {
+      "address": "Bedumerweg 62a",
+      "postalCode": "9716 AE",
+      "city": "Groningen",
+      "countryCode": "NL",
+      "region": "Groningen"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Channa Dias Perera",
+        "url": "linkedin.com/in/channa-dias-perera-25061b134"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Code Camp Australia",
+      "position": "Teaching Assistant",
+      "url": "https://www.codecamp.com.au/",
+      "startDate": "2015-06-01",
+      "endDate": "2018-06-01",
+      "summary": "At Code Camp, I worked as a teacher’s assistant for classes of up to 15 students, aged between 8 to 14.",
+      "highlights": [
+        "Assisting the head teacher with explanations of key coding concepts",
+        "Providing individual help for students to complete their programming projects",
+        "Supervising the students and creating a fun and exciting learning environment"
+      ]
+    },
+    {
+      "name": "CRRC Changchun Australia Rail Pty. Ltd.",
+      "position": "Electronics Intern",
+      "startDate": "2018-11-01",
+      "endDate": "2019-02-01",
+      "summary": "At CRRC, I supported the carriage communications engineering team, as they began testing software that will be integrated into a communication system of a new train design.",
+      "highlights": [
+        "Wrote and edited 5 test procedures. I used VBA to automate the formatting of content",
+        "Assembled and configured a prototype communication system, which would be used for testing by the Software Integration team",
+        "Integrated, configured and debugged 2 physical subsystems of the communication system, using software such as Wireshark to analyze network packets"
+      ]
+    },
+    {
+      "name": "Climbing Anchors Collingwood",
+      "position": "Sales Assistant",
+      "url": "https://www.climbinganchors.com.au/",
+      "startDate": "2019-04-01",
+      "endDate": "2019-09-01",
+      "summary": "At Climbing Anchors, I was in charge of selling and advising customers in the field of climbing equipment",
+      "highlights": [
+        "Opened and closed the store",
+        "Arranged the storefront and shelves",
+        "Packied and shipped goods to customers"
+      ]
+    },
+    {
+      "name": "Christic Lanka Polymers Pvt Ltd",
+      "position": "Quality Manager",
+      "url": "https://christiclanka.wordpress.com/",
+      "startDate": "2019-09-01",
+      "endDate": "2020-10-01",
+      "summary": "At Christic Lanka, I was in charge of reporting the material properties of products produced by the company, namely their unsaturated polyester resins",
+      "highlights": [
+        "Prepared testing and certification documentation, based on ISO and industry guidelines",
+        "Conducted tests to determine the physical properties of resin samples",
+        "Managed the Materials Lab",
+        "Trained personnel, so they can prepare and run tests of resin samples"
+      ]
+    },
+    {
+      "name": "The University of Groningen",
+      "position": "Teaching Assistant",
+      "url": "https://www.rug.nl/",
+      "startDate": "2021-03-01",
+      "summary": "During my time at the University of Groningen, I acted as a teaching asssitant for various subjects. These covered the usual TA activities, such as marking and guiding tutorials, but it also involved creating educational material, providing support lectures and administrational duties, when I acted as a head TA",
+      "highlights": [
+        "Introduction to Logic",
+        "Discrete Structures",
+        "Computer Architecture",
+        "Algorithms and Data Structures in C",
+        "(Head) Advanced Algorithms and Data Structures",
+        "Problem Analysis and Software Design",
+        "Software Engineering"
+      ]
+    },
+    {
+      "name": "CADMATIC",
+      "position": "Software Engineering Intern",
+      "url": "https://www.cadmatic.com/en/",
+      "startDate": "2022-02-01",
+      "endDate": "2022-06-01",
+      "summary": "In this position, I worked within a student team of 6 to finish an import utility of a ship design CAD software. This utility translated an open standard for 3D modeling into an internal model which the CAD software could manipulate",
+      "highlights": [
+        "Prepared the requirements and technical design document for the project",
+        "Wrote the broad-phase collision detection module in C++."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "The University of Melbourne",
+      "position": "Student Representative",
+      "url": "https://www.unimelb.edu.au/",
+      "startDate": "2016-06-01",
+      "endDate": "2018-06-01",
+      "summary": "As a student representative, I was in charge of acting as a liason between the student body and the university.",
+      "highlights": [
+        "Interviewing students to gather feedback about the course",
+        "Determining areas of improvement within the course"
+      ]
+    },
+    {
+      "organization": "The University of Melbourne",
+      "position": "Student Ambassador",
+      "url": "https://www.unimelb.edu.au/",
+      "startDate": "2016-06-01",
+      "endDate": "2018-06-01",
+      "summary": "As a student representative, I was in charge of acting as a liason between the student body and the university. ",
+      "highlights": [
+        "Leading lab tours with high school students and visitors",
+        "Participating in Q&A panels",
+        "Representing the university in a professional manner, across multiple events"
+      ]
+    },
+    {
+      "organization": "Melbourne University Mountaineering Club (MUMC)",
+      "position": "General Member / Secretary",
+      "url": "https://www.mumc.org.au/",
+      "startDate": "2017-08-01",
+      "endDate": "2019-08-01",
+      "summary": "As a general member of MUMC, my role involved promoting and organizing various events during my tensure. As a secretary, I had these responsibilities as well as:",
+      "highlights": [
+        "Taking and maintaining minutes of monthly committee meetings",
+        "Lodging annual reports to Consumer Affairs Victoria and Melbourne University Sport",
+        "Maintaining MUMC archives and records",
+        "Communicating between the club and various third parties"
+
+      ]
+    },
+    {
+      "organization": "The University of Groningen",
+      "position": "Computing Science Programme Committee Vice-Chair",
+      "url": "https://www.rug.nl/",
+      "startDate": "2020-11-01",
+      "summary": "As a member of the Programme Committee, I acted as a liaison between the student body and the Faculty of Science and Engineering",
+      "highlights": [
+        "Approving changes to the Teaching and Exam Regulations",
+        "Communicating potential course improvements to subject coordinators, during the teaching period",
+        "Running the Teacher and Teaching Assistant of the Year.",
+        "During my tenure as chair, I was in charge of redesigning the Teacher of the Year award, so it encourages better teaching practices. ",
+        "Teacher of the Year website",
+        "Various proposals (workload tracking)",
+        "Interviewing members for other boards"
+      ]
+    },
+    {
+      "organization": "COVER",
+      "position": "Support Lecturer",
+      "url": "https://www.svcover.nl/",
+      "startDate": "2020-11-01",
+      "summary": "During my studies, I acted as a support lecturer for the COVER student association,  providing 2-hour lectures for various subjects within the Computing Science degree. I have provided the following support lectures:",
+      "highlights": [
+        "Introduction to Logic",
+        "Discrete Structures",
+        "Program Correctness",
+        "Signals and Systems in C",
+        "Languages and Machines"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "The University of Melbourne",
+      "url": "https://www.unimelb.edu.au/",
+      "area": "Electrical Engineering",
+      "studyType": "Master",
+      "startDate": "2017-02-01",
+      "endDate": "2019-07-01",
+      "score": "73.44%"
+    },
+    {
+      "institution": "The University of Groningen",
+      "url": "https://www.rug.nl",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2020-09-01",
+      "score": "93.26%"
+    }
+  ],
+  "awards": [
+    {
+      "title": "KHMW Young Talent Incentive Award (Informatics and technical informatics)",
+      "date": "2021-11",
+      "awarder": "Royal Holland Society of Sciences and Humanities",
+      "summary": "An award granted to first year students for achieving (one of) the highest grades in their respective study, at their university."
+    }
+  ],
+  "certificates": [
+
+  ],
+  "publications": [
+
+  ],
+  "skills": [
+    {
+      "name": "Desktop App Programming",
+      "level": "Advanced",
+      "keywords": [
+        "Java",
+        "Java Swing",
+        "C++",
+        "Python"
+      ]
+    },
+    {
+      "name": "Functional Programming",
+      "level": "Intermediate",
+      "keywords": [
+        "Haskell",
+        "Maude"
+      ]
+    },
+    {
+      "name": "Web Development - Advanced",
+      "level": "Advanced",
+      "keywords": [
+        "REST",
+        "OpenAPI",
+        "Swagger",
+        "Java Spring Web",
+        "Django",
+        "FastAPI",
+        "HTML5",
+        "CSS",
+        "Svelte"
+      ]
+    },
+    {
+      "name": "Web Development - Intermediate",
+      "level": "Intermediate",
+      "keywords": [
+        "Javascript",
+        "MongoDB",
+        "Node",
+        "Express",
+        "React",
+        "Redux"
+      ]
+    },
+    {
+      "name": "Testing",
+      "level": "Intermediate",
+      "keywords": [
+        "JUnit",
+        "GoogleTest"
+      ]
+    },
+    {
+      "name": "Database Systems",
+      "level": "Intermediate",
+      "keywords": [
+        "SQL",
+        "JPA",
+        "Postgres",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Version Control",
+      "level": "Advanced",
+      "keywords": [
+        "git",
+        "Gitea"
+      ]
+    },
+    {
+      "name": "Project Management",
+      "level": "Master",
+      "keywords": [
+        "Trello",
+        "SCRUM",
+        "Agile"
+      ]
+    },
+    {
+      "name": "Low Level Programming",
+      "level": "Beginner",
+      "keywords": [
+        "C",
+        "Arduino IDE",
+        "LC3 Assembly"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "references": [
+
+  ],
+  "projects": [
+    {
+      "name": "Asteroids Multiplayer Game",
+      "summary": "A simple Androids-like game, with custom graphics and multiplayer (via UDP), created for a university course.",
+      "keywords": [
+        "Java",
+        "Multithreaded Programming",
+        "Networking",
+        "Java Swing"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Housing data CRUD Website",
+      "summary": "A simple CRUD Website presenting a CRUD frontend for a custom-built CRUD backend API, presenting data scraped from Kamernet",
+      "keywords": [
+        "Java Spring Web",
+        "MySQL",
+        "JPA",
+        "Hibernate",
+        "HTML5",
+        "CSS",
+        "Vanilla JS"
+      ]
+    },
+    {
+      "name": "Broad Phase Collision Detector",
+      "summary": "A 3D collision detection system implemented via AABB Trees.",
+      "keywords": [
+        "C++",
+        "Google Test"
+      ]
+    },
+    {
+      "name": "Programme Teacher of the Year Website",
+      "summary": "A website to host the Teacher of the Year Aware for the CS Programme at the University of Groningen. Consists of both the backend and frontend",
+      "keywords": [
+        "Java Spring Web",
+        "Postgres"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Genetic algorithm for the Partition Problem",
+      "summary": "The <a href='https://en.wikipedia.org/wiki/Partition_problem'>partition problem </a> is known to be an NP hard problem, so to find a solution quickly, I implemented a <a href='https://en.wikipedia.org/wiki/Genetic_algorithm'>genetic algorithm</a> to grow and solve it fast.",
+      "url": "https://github.com/cdiasperera/GeneticPartitionProblem",
+      "keywords": [
+        "c"
+      ]
+    },
+    {
+      "name": "Converting C++ Comments to Doxygen",
+      "summary": "For one company I did a project for (not listed in this page, as the project was closed-source), I had to create an object collision detection system in C++. I had written documentation in C++ style, but our team wished to write the documentation in <a href='https://www.doxygen.nl/'>Doxygen</a>. So I create a quick tool in Java to convert my comments to my team's desired style.",
+      "url": "https://github.com/cdiasperera/CPP-Comments-To-Doxygen",
+      "keywords": [
+        "Java"
+      ]
+    },
+    {
+      "name": "Yelpcamp",
+      "url": "https://github.com/cdiasperera/YelpCamp",
+      "summary": "One of my projects that helped me learn web development. This is a simple CRUD website, written with the MERN stack, that lets you examine the various national parks in the US.",
+      "keywords": [
+        "MongoDB",
+        "Express",
+        "HTML5",
+        "CSS",
+        "JS",
+        "Node"
+      ]
+    },
+    {
+      "name": "Build-A-Burger",
+      "url": "https://github.com/cdiasperera/build-a-burger",
+      "summary": "Another one of my projects that helped me learn. This is a simple application written in React that lets you \"Build-a-Burger\".",
+      "keywords": [
+        "React",
+        "Redux"
+      ]
+    }
+  ],
+  "interests": [{
+    "name": "Rock Climbing"
+  }],
+  "meta": {}
+}

@@ -37,10 +37,12 @@
 
 <style>
     .icon, .placeholder {
-        width: 4vh;
-        height: 4vh;
+        width: 1em;
+        height: 1em;
         display: inline-block;
-        margin-right: 1vh;
+        margin-right: 0.25em;
+        background-color: #eaeaea;
+        border-radius: 20%;
     }
 
     .placeholder {

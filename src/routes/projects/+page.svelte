@@ -5,7 +5,7 @@
     import Footer from "$lib/Footer.svelte";
 </script>
 
-<div class="footer">
+<div class="content">
     <Header/>
     <h1> My Personal Projects</h1>
 
