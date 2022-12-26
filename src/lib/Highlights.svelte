@@ -1,8 +1,8 @@
 <div>
-    <h1>Highlights</h1>
-    <ul>
-        <li>Test</li>
-    </ul>
+<!--    <h1>Highlights</h1>-->
+<!--    <ul>-->
+<!--        <li>Test</li>-->
+<!--    </ul>-->
 </div>
 
 <style>

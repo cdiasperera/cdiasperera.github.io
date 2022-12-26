@@ -28,14 +28,26 @@
         .layout {
             grid-template-columns: 1fr 2fr;
         }
+
+        .misc {
+            grid-row: 2 / 3;
+            grid-column: 1 / 3;
+        }
     }
 
-    @media (min-width: 1500px) {
+    @media (min-width: 1200px) {
         .layout {
             grid-template-columns: 1fr 2fr 1.5fr;
         }
+
+        .misc {
+            grid-row: auto;
+            grid-column: auto;
+        }
+
     }
     .layout {
         display: grid;
+        grid-column-gap: 1em;
     }
 </style>
