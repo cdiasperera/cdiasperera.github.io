@@ -24,8 +24,18 @@
 </div>
 
 <style>
+    @media (min-width: 600px) {
+        .layout {
+            grid-template-columns: 1fr 2fr;
+        }
+    }
+
+    @media (min-width: 1500px) {
+        .layout {
+            grid-template-columns: 1fr 2fr 1.5fr;
+        }
+    }
     .layout {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
     }
 </style>

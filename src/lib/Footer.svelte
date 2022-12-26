@@ -3,7 +3,7 @@
 </script>
 <div class="footer">
     <div class="footer-wrap">
-        <a href="https://github.com/cdiasperera/website"><img src={github_ico} alt="website-repo"/></a>
+        <a href="https://github.com/cdiasperera/cdiasperera.github.io"><img src={github_ico} alt="website-repo"/></a>
     </div>
 </div>
 
@@ -13,6 +13,7 @@
         height: 2em;
         position: relative;
         flex-shrink: 0;
+        margin-top: 2em;
     }
 
     .footer-wrap {

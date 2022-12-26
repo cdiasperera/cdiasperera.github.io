@@ -6,7 +6,8 @@
 </script>
 <div class="card">
     <h3 class="title">
-        <a href = {"projects/" + project.name}>{project.name}</a>
+        {project.name}
+<!--        <a href = {"projects/" + project.name}>{project.name}</a>-->
         {#each project.stack as lang (lang)}
             <LanguageIcon {lang}/>
         {/each}
