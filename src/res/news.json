@@ -1,7 +1,17 @@
 [
   {
+    "title": "Self hosted by own git server",
+    "date": "2022-12-28",
+    "data": "In an effort to up my git skills, as well as learn a bit of server management, I decided to self-host my own git server. Glad to say, it's up and running :)"
+  },
+  {
+    "title": "Website released!",
+    "date": "2022-12-27",
+    "data": "Today, I deployed my website on github pages. It's a bit rough around the edges, but I think it's in a good enough state to publish. If you can see this, that means it worked!"
+  },
+  {
     "title": "Working on a new Programming Project!",
     "date": "2022-12-17",
-    "data": "I'm working on a new Programming Project! With Prof. Perez, I'm writing examples for a specification of pi-calculus written in the Maude meta-programming langauge, demonstrating the automated dead-lock detection algorithm"
+    "data": "I'm working on a new Programming Project! With <a href='https://www.jperez.nl/'>Prof. Perez</a>, I'm writing examples for a specification of pi-calculus written in the Maude meta-programming langauge, demonstrating the automated dead-lock detection algorithm. You can find details in the on my projects page!"
   }
 ]

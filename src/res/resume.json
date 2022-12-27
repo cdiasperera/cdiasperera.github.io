@@ -281,6 +281,16 @@
       ]
     },
     {
+      "name": "System Admin",
+      "level": "Intermediate",
+      "keywords": [
+        "ssh",
+        "vim",
+        "Digital Ocean",
+        "bash"
+      ]
+    },
+    {
       "name": "Project Management",
       "level": "Master",
       "keywords": [

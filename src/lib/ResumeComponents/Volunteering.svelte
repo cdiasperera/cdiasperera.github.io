@@ -1,4 +1,6 @@
 <script>
+    import DateRange from "$lib/DateRange.svelte";
+
     export let volunteer;
 </script>
 <h2>Volunteering</h2>
@@ -6,7 +8,7 @@
     {#each volunteer as position}
         <li><a href={position.url}>{position.organization}</a></li>
         <li>{position.position}</li>
-        <li>{position.startDate}-{position.endDate}</li>
+        <DateRange start={position.startDate} end={position.endDate}/>
         <li>{position.summary}</li>
         <ul>
             {#each position.highlights as highlight}

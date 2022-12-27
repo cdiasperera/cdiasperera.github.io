@@ -1,4 +1,6 @@
 <script>
+    import ProjectImage from "$lib/ProjectImage.svelte";
+
     export let project;
     import LanguageIcon from "$lib/LanguageIcon.svelte";
     import github_ico from "../res/icons/github-mark.png";
@@ -6,15 +8,20 @@
 </script>
 <div class="card">
     <h3 class="title">
-        {project.name}
-<!--        <a href = {"projects/" + project.name}>{project.name}</a>-->
+        {#if project.url}
+            <a href = {project.url}>{project.name}</a>
+        {:else}
+            {project.name}
+        {/if}
         {#each project.stack as lang (lang)}
             <LanguageIcon {lang}/>
         {/each}
     </h3>
+    {#if project.repo}
     <a href={project.repo}><img class="github-ico" src={github_ico} alt="github logo"></a>
-    {#if project.img}
-        <img class="proj-img" src={project.image} alt="Project image"/>
+    {/if}
+    {#if project.image}
+        <ProjectImage name={project.image}/>
     {:else }
         <img class="proj-img" src={placeholder} alt="placeholder"/>
     {/if}

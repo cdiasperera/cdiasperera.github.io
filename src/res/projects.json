@@ -19,6 +19,19 @@
     ]
   },
   {
+    "name": "Self-hosted git server",
+    "url": "https://cdpgit.dev",
+    "repo": "",
+    "desc": "To learn a bit about server management and git, I decided to self host my own git server. You can visit it <a href='https://cdpgit.dev'>here</a>, if you like to see my public repositories (if any). Most likely it will appear empty as it will contain all my private data.",
+    "image": "gitea.png",
+    "stack": [
+      "digitalocean",
+      "git",
+      "gitea",
+      "nginx"
+    ]
+  },
+  {
     "name": "Converting C++ Commenting styles",
     "repo": "https://github.com/cdiasperera/CPP-Comments-To-Doxygen",
     "desc": "For one company I did a project for (not listed in this page, as the project was closed-source), I had to create an object collision detection system in C++. I had written documentation in C++ style, but our team wished to write the documentation in <a href='https://www.doxygen.nl/'>Doxygen</a>. So I create a quick tool in Java to convert my comments to my team's desired style.",
