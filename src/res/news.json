@@ -12,6 +12,6 @@
   {
     "title": "Working on a new Programming Project!",
     "date": "2022-12-17",
-    "data": "I'm working on a new Programming Project! With <a href='https://www.jperez.nl/'>Prof. Perez</a>, I'm writing examples for a specification of pi-calculus written in the Maude meta-programming langauge, demonstrating the automated dead-lock detection algorithm. You can find details in the on my projects page!"
+    "data": "I'm working on a new Programming Project! With <a href='https://www.jperez.nl/'>Prof. Perez</a>, I'm writing examples for a <a href='https://gitlab.com/calrare1/session-types/'>specification of pi-calculus</a> written in the Maude meta-programming langauge, demonstrating the automated dead-lock detection algorithm."
   }
 ]

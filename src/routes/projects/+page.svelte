@@ -18,10 +18,6 @@
 
 <Footer/>
 <style>
-    h1 {
-        padding: 0.5em 0 0 0.5em;
-    }
-
     .push-footer {
         padding-top: 0.5em;
     }

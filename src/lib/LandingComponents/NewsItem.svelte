@@ -4,4 +4,4 @@
 
 <h2>{info.title}</h2>
 <em>{info.date}</em>
-<p>{info.data}</p>
+<p>{@html info.data}</p>

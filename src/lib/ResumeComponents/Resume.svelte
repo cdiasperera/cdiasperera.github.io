@@ -27,6 +27,8 @@
     @media (min-width: 600px) {
         .layout {
             grid-template-columns: 1fr 2fr;
+            padding-left: 1em;
+            padding-right: 1em;
         }
 
         .misc {

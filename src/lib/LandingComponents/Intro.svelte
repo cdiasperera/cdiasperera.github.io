@@ -20,7 +20,6 @@
 <style>
     h1 {
         padding-left: 0.5em;
-        padding-top: 0.5em;
     }
     img {
         height: 15em;
