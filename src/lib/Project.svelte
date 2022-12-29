@@ -31,7 +31,7 @@
 <style>
     .card {
         padding: 0.75em;
-        background-color: #f0f0f0;
+        background-color: var(--bkg-deep);
         border-radius: 12px;
         margin: 1em 0.5em 0 0.5em;
         border: 1px solid #bacdd8;

@@ -2,15 +2,15 @@
     import NewsItem from "$lib/LandingComponents/NewsItem.svelte";
     import newsItems from '../../res/news.json';
 </script>
+<h1>News</h1>
 <div>
-    <h1>News</h1>
-    {#each newsItems as newsItem (newsItem.id)}
+    {#each newsItems as newsItem}
         <NewsItem info={newsItem}/>
     {/each}
 </div>
 
 <style>
-    div {
+    div{
         padding: 0.5em 1em;
     }
 </style>

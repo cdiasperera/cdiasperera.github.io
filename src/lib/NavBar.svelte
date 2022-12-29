@@ -1,5 +1,6 @@
 <script>
     import {base} from "$app/paths";
+    import DarkModeToggle from "$lib/DarkModeToggle.svelte";
 </script>
 
 <header>
@@ -8,14 +9,13 @@
             <li><a href="{base}/">Home</a></li>
             <li><a href="{base}/resume">Resume</a></li>
             <li><a href="{base}/projects">Projects</a></li>
+            <DarkModeToggle/>
         </ul>
     </nav>
 </header>
 
 <style>
     header {
-        background-color: white;
-        /*position: fixed;*/
         top: 0;
         left: 0;
         right: 0;
@@ -30,7 +30,7 @@
     }
 
     header li a {
-        color: black;
+        color: var(--txt-color);
         text-decoration: none;
     }
 
