@@ -4,7 +4,7 @@
 <h2>Awards</h2>
 <ul>
     {#each awards as award (award.name)}
-    <li>{award.title}</li>
+        <li>{award.title}</li>
         <ul>
             <li>{award.date}</li>
             <li>{award.awarder}</li>

@@ -48,6 +48,7 @@
         }
 
     }
+
     .layout {
         display: grid;
         grid-column-gap: 1em;

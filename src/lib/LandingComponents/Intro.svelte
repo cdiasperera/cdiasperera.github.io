@@ -21,10 +21,12 @@
     h1 {
         padding-left: 0.5em;
     }
+
     img {
         height: 15em;
         float: left;
     }
+
     div {
         padding: 0.5em 1em;
         overflow: auto;

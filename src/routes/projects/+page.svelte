@@ -21,6 +21,7 @@
     .push-footer {
         padding-top: 0.5em;
     }
+
     .content {
         flex: 1 0 auto;
     }

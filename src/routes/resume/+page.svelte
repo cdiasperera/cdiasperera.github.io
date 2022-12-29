@@ -16,6 +16,7 @@
     .content {
         flex: 1 0 auto;
     }
+
     .resume {
         margin-left: 0.5em;
     }

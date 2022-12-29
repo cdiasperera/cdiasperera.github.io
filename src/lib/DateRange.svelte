@@ -14,5 +14,5 @@
     }
 </script>
 {#if (numDefined !== 0)}
-<li>{start} to {end}</li>
+    <li>{start} to {end}</li>
 {/if}

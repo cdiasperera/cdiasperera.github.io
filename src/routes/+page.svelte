@@ -23,10 +23,10 @@
     console.log(introMessage2);
 </script>
 <div class="content">
-<Header/>
-<Intro/>
-<Highlights/>
-<News/>
+    <Header/>
+    <Intro/>
+    <Highlights/>
+    <News/>
 </div>
 <Footer/>
 

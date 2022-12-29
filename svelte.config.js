@@ -1,21 +1,21 @@
 import adapter from '@sveltejs/adapter-static';
-import { vitePreprocess } from '@sveltejs/kit/vite';
+import {vitePreprocess} from '@sveltejs/kit/vite';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
-	// for more information resume preprocessors
-	preprocess: vitePreprocess(),
+    // Consult https://kit.svelte.dev/docs/integrations#preprocessors
+    // for more information resume preprocessors
+    preprocess: vitePreprocess(),
 
-	kit: {
-		adapter: adapter({
-			pages: "docs",
-			assets: "docs"
-		}),
-		paths: {
-			base: process.env.NODE_ENV === "production" ? "" : ""
-		},
-	}
+    kit: {
+        adapter: adapter({
+            pages: "docs",
+            assets: "docs"
+        }),
+        paths: {
+            base: process.env.NODE_ENV === "production" ? "" : ""
+        },
+    }
 };
 
 export default config;

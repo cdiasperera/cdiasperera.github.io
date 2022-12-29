@@ -25,6 +25,7 @@
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
     }
+
     img {
         width: 1em;
         height: 1em;

@@ -1,15 +1,15 @@
 <script>
     import ProjectImage from "$lib/ProjectImage.svelte";
-
-    export let project;
     import LanguageIcon from "$lib/LanguageIcon.svelte";
     import github_ico from "../res/icons/github-mark.png";
     import placeholder from "../res/placeholder.webp"
+
+    export let project;
 </script>
 <div class="card">
     <h3 class="title">
         {#if project.url}
-            <a href = {project.url}>{project.name}</a>
+            <a href={project.url}>{project.name}</a>
         {:else}
             {project.name}
         {/if}
@@ -18,7 +18,7 @@
         {/each}
     </h3>
     {#if project.repo}
-    <a href={project.repo}><img class="github-ico" src={github_ico} alt="github logo"></a>
+        <a href={project.repo}><img class="github-ico" src={github_ico} alt="github logo"></a>
     {/if}
     {#if project.image}
         <ProjectImage name={project.image}/>
@@ -35,7 +35,7 @@
         border-radius: 12px;
         margin: 1em 0.5em 0 0.5em;
         border: 1px solid #bacdd8;
-        box-shadow: 3px 3px 7px -2px rgba(0,0,0,0.75);
+        box-shadow: 3px 3px 7px -2px rgba(0, 0, 0, 0.75);
 
         overflow: auto;
 
