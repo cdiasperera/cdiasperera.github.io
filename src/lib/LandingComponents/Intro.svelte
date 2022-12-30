@@ -28,7 +28,7 @@
     }
 
     div {
-        padding: 0.5em 1em;
+        padding: 0.5em 1em 1.1em;
         overflow: auto;
     }
 

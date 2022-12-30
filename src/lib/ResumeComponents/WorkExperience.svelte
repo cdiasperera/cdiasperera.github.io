@@ -9,7 +9,13 @@
 <h2>Work Experience</h2>
 <ul>
     {#each work as position}
-        <li><a href={position.url}>{position.name}</a></li>
+        <li>
+            {#if position.url}
+                <a href={position.url}>{position.name}</a>
+            {:else}
+                {position.name}
+            {/if}
+        </li>
         <ul>
             <li>{position.position}</li>
             <DateRange start={position.startDate} end={position.endDate}/>

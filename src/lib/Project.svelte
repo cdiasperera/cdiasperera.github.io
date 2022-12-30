@@ -13,13 +13,13 @@
         {:else}
             {project.name}
         {/if}
-        {#each project.stack as lang (lang)}
-            <LanguageIcon {lang}/>
-        {/each}
+        {#if project.repo}
+            <a href={project.repo}><img class="github-ico" src={github_ico} alt="github logo"></a>
+        {/if}
     </h3>
-    {#if project.repo}
-        <a href={project.repo}><img class="github-ico" src={github_ico} alt="github logo"></a>
-    {/if}
+    {#each project.stack as lang (lang)}
+        <LanguageIcon {lang}/>
+    {/each}
     {#if project.image}
         <ProjectImage name={project.image}/>
     {:else }
@@ -34,7 +34,7 @@
         background-color: var(--bkg-deep);
         border-radius: 12px;
         margin: 1em 0.5em 0 0.5em;
-        border: 1px solid #bacdd8;
+        border: 1px solid rgba(0,0,0,0.1);
         box-shadow: 3px 3px 7px -2px rgba(0, 0, 0, 0.75);
 
         overflow: auto;
@@ -58,8 +58,12 @@
     }
 
     .github-ico {
-        width: 1.5em;
-        height: 1.5em;
+        width: 1.3em;
+        height: auto;
         display: inline-block;
+        background-color: var(--white);
+        border-radius: 50%;
+        padding: 1px;
     }
+
 </style>

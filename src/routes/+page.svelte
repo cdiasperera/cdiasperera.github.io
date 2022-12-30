@@ -1,9 +1,10 @@
 <script>
     import Header from '$lib/Header.svelte'
     import Intro from "$lib/LandingComponents/Intro.svelte";
-    import Highlights from "$lib/Highlights.svelte";
+    import Highlights from "$lib/LandingComponents/Highlights.svelte";
     import News from "$lib/LandingComponents/News.svelte";
     import Footer from "$lib/Footer.svelte";
+    import LineDivider from "$lib/LineDivider.svelte";
 
     let introMessage1 = `
    __ __    ____
@@ -25,7 +26,9 @@
 <div class="content">
     <Header/>
     <Intro/>
-    <Highlights/>
+    <LineDivider/>
+<!--    <Highlights/>-->
+<!--    <LineDivider/>-->
     <News/>
 </div>
 <Footer/>

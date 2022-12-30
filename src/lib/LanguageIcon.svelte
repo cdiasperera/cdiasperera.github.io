@@ -36,21 +36,24 @@
 </script>
 
 {#if icon}
-    <div class="icon">
+    <span class="icon">
         <svelte:component this={icon}/>
-    </div>
+    </span>
 {:else}
     <img class="placeholder" src={placeholder} alt={lang}>
 {/if}
 
 <style>
+
     .icon, .placeholder {
-        width: 1em;
-        height: 1em;
+        line-height: inherit;
+        width: 2em;
+        height: auto;
         display: inline-block;
         margin-right: 0.25em;
-        background-color: #eaeaea;
+        background-color: var(--white);
         border-radius: 20%;
+        padding: 2px;
     }
 
     .placeholder {
