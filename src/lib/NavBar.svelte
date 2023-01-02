@@ -5,16 +5,24 @@
 
 <header>
     <nav>
-        <ul>
-            <li><a href="{base}/">Home</a></li>
-            <li><a href="{base}/resume">Resume</a></li>
-            <li><a href="{base}/projects">Projects</a></li>
+        <div>
+            <ul>
+                <li><a href="{base}/">Home</a></li>
+                <li><a href="{base}/resume">Resume</a></li>
+                <li><a href="{base}/projects">Projects</a></li>
+            </ul>
+        </div>
+        <div class="at-right">
             <DarkModeToggle/>
-        </ul>
+        </div>
     </nav>
 </header>
 
 <style>
+    .at-right {
+        margin-top: 1em;
+        margin-right: 2em;
+    }
     header {
         top: 0;
         left: 0;
@@ -25,16 +33,20 @@
         box-shadow: 0 0 25px 0 black;
     }
 
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
     header li {
+        vertical-align: middle;
+        display: inline-flex;
         margin: 20px;
     }
 
     header li a {
         color: var(--txt-color);
         text-decoration: none;
-    }
-
-    header * {
-        display: inline;
     }
 </style>
