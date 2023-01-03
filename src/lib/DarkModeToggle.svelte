@@ -1,17 +1,17 @@
 <script>
+    import { inDarkMode } from '../stores'
     import Sun from '../res/icons/sun.svelte'
     import Moon from '../res/icons/moon.svelte'
 
-    let inDarkMode = false;
     let toggle = () => {
         window.document.body.classList.toggle('dark-mode')
-        $: inDarkMode = window.document.body.classList.contains('dark-mode')
+        $: inDarkMode.set(window.document.body.classList.contains('dark-mode'))
     }
 
 </script>
 
 <div class="icon" on:click={toggle}>
-    {#if !inDarkMode}
+    {#if !$inDarkMode}
     <svelte:component this={Sun}/>
     {:else}
     <svelte:component this={Moon}/>

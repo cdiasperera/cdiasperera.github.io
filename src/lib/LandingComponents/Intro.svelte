@@ -5,7 +5,7 @@
 
 <h1>Channa Dias Perera</h1>
 <div>
-    <img src={selfie} alt="Selfie">
+    <img src={selfie} alt="Selfie" loading="lazy">
     <p>
         Hello! I am a Computing Science student at the <a href="https://www.rug.nl/">University of Groningen</a>.
 

@@ -7,7 +7,7 @@
     imageMap.set('gitea.png', gitea)
     let image = imageMap.get(name)
 </script>
-<img class="proj-img" src={image} alt="Project image"/>
+<img class="proj-img" src={image} alt="Project image" loading="lazy"/>
 
 <style>
     .proj-img {
