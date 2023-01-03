@@ -20,7 +20,7 @@
 
 <style>
     .at-right {
-        margin-top: 1em;
+        margin-top: 0.4em;
         margin-right: 2em;
     }
     header {
@@ -42,7 +42,17 @@
     header li {
         vertical-align: middle;
         display: inline-flex;
-        margin: 20px;
+        margin: 10px;
+    }
+
+    @media (min-width: 390px) {
+        header li {
+            margin: 20px;
+        }
+
+        .at-right {
+            margin-top: 1em;
+        }
     }
 
     header li a {
